@@ -15,3 +15,6 @@ Logs alerts for later analysis.
 ## Triggering Alerts
 Open a second terminal and add synthetic failed login entries. You can change the IP here to match blacklisted ones.
 `echo "Jul  9 12:00:01 localhost sshd[12345]: Failed password for invalid user root from 192.168.1.10 port 22 ssh2" >> sample_logs/auth.log`
+
+## See Also
+The same tool I've built in Bash: https://github.com/cathays/log-analyser
